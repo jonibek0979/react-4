@@ -1,0 +1,72 @@
+.Stories {
+    background: #004047;
+    padding-top: 133px;
+    padding-bottom: 150px;
+    background-image: url('../../../assets/fonts/Stories1.png'), url('../../../assets/fonts/Stories2.png');
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0, top 0 left 0;
+
+    h2 {
+        width: 932px;
+        color: #FFF;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        margin: 0 auto;
+
+        span {
+            color: #79C8C7;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:313px;
+        margin-top: 66px;
+        li {
+            padding-top: 38px;
+            background-image: url('../../../assets/fonts/stories__bg.png');
+            background-repeat: no-repeat;
+            background-position: top 5px left 140px;
+            height:100%;
+            p {
+                width: 350px;
+                color: #FFF;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 600;
+            }
+
+            h4 {
+                display: block;
+                color: #79C8C7;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 700;
+                margin-top: 24px;
+            }
+
+            i {
+                display: block;
+                color: #FFF;
+                text-align: center;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 18px;
+                margin-top: 2px;
+            }
+            .Stories__img2{
+                display: block;
+                margin: 0 auto;
+                margin-top: 32px;
+            }
+        }
+    }
+}

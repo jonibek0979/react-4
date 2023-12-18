@@ -1,0 +1,48 @@
+.hero {
+    background: #014E56;
+    padding-top: 133px;
+    padding-bottom: 250px;
+    background-image: url('../../../assets/fonts/Hero__bg1.png'),url('../../../assets/fonts/Hero__bg2.png');
+    background-repeat: no-repeat;
+    background-position: top 130px left 0, bottom 0 right 189px ;
+}
+
+.Hero__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        width: 630px;
+        color: #FFF;
+        font-size: 100px;
+        font-weight: 700;
+    }
+
+    span {
+        color: #F67E7E;
+    }
+}
+
+
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    hr {
+        width: 50px;
+        height: 4px;
+        flex-shrink: 0;
+        background: #79C8C7;
+        border: none;
+    }
+
+    p {
+        width: 445px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 70px;
+    }
+
+}

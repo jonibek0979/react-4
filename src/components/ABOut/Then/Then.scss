@@ -1,0 +1,42 @@
+.then {
+    background-image: url('../../../assets/fonts/Some__bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background: #014E56;
+    padding-top: 130px;
+    padding-bottom: 120px;
+
+    .then__inner {
+        display: flex;
+        align-items: center;
+
+        h2 {
+            width: 30%;
+            color: #FFF;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100px;
+        }
+        span{
+            width: 70%;
+            hr{
+                width: 50px;
+                height: 4px;
+                flex-shrink: 0;
+                background: #F67E7E;
+                border: none;
+            }
+            p{
+                width: 730px;
+                color: #FFF;
+                font-family: Livvic;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+                margin-top: 40px;
+            }
+        }
+    }
+}

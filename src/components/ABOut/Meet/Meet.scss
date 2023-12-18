@@ -1,0 +1,178 @@
+.Meet {
+    padding: 140px 0;
+    background: #004047;
+    background-image: url('../../../assets/fonts/meet__top.png'),url('../../../assets/fonts/meet__bot.png');
+background-repeat: no-repeat;
+background-position: top left,bottom right;
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 64px;
+        margin: 0 auto;
+        padding-left: 60px;
+
+        li {
+            width: 350px;
+            height: 282.168px;
+            flex-shrink: 0;
+            margin-left: 54px;
+            margin-top: 76px;
+
+            .item__div {
+                padding-top: 32px;
+                width: 350px;
+                height: 254.051px;
+                flex-shrink: 0;
+                background: #012F34;
+
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                h4 {
+                    color: #79C8C7;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    margin-top: 16px;
+                }
+
+                i {
+                    display: block;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: 500;
+                    line-height: 25px;
+                    margin-top: 2px;
+                }
+            }
+
+            button {
+                display: block;
+                width: 56px;
+                height: 56px;
+                flex-shrink: 0;
+                font-size: 30px;
+                font-weight: bold;
+                color: #004047;
+                background: #F67E7E;
+                border-radius: 50%;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin: 0 auto;
+                margin-top: -32px;
+                border: none;
+
+                &:hover {
+                    background: #79C8C7;
+                }
+            }
+
+            // .add {
+            //     position: fixed;
+            //     left: 50%;
+            //     top: 50%;
+            //     background: #002529;
+            //     padding-top: 34px;
+            //     width: 350px;
+            //     height: 254.051px;
+            //     flex-shrink: 0;
+            //     border: 1px solid #bb0606;
+            //     margin-left: -1320px;
+            //     margin-top: -164px;
+
+            //     .addd {
+            //         margin-left: 0;
+            //     }
+
+            //     .btn {
+            //         margin-top: 30px;
+            //     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //     h4 {
+            //         color: #79C8C7;
+            //         text-align: center;
+            //         font-size: 18px;
+            //         font-style: normal;
+            //         font-weight: 700;
+            //         line-height: 28px;
+            //     }
+
+            //     P {
+            //         width: 254px;
+            //         height: 75px;
+            //         margin-top: 8px;
+            //         color: #FFF;
+            //         text-align: center;
+            //         font-size: 15px;
+            //         font-style: normal;
+            //         font-weight: 600;
+            //         line-height: 25px;
+            //         margin: 0 auto;
+            //     }
+
+            //     span {
+            //         width: 100px;
+            //         display: flex;
+            //         justify-content: space-between;
+            //         align-items: end;
+            //         margin: 0 auto;
+            //         margin-top: 24px;
+            //     }
+
+            //     a {
+            //         width: 100px;
+
+            //         .img1 {
+            //             width: 30px;
+            //             height: 30px;
+            //         }
+
+            //         .img2 {
+            //             width: 30px;
+            //             height: 30px;
+            //         }
+
+
+
+            //     }
+            // }
+        }
+    }
+
+}

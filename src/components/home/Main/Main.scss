@@ -1,0 +1,59 @@
+.Main {
+    padding: 140px 0;
+    background: #012F34;
+    background-image: url('../../../assets/fonts/Main.png');
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0;
+
+    .Main__flex {
+        display: flex;
+        justify-content: space-between;
+
+        .build {
+            hr {
+                width: 50px;
+                height: 4px;
+                flex-shrink: 0;
+                background: #F67E7E;
+                border: none;
+            }
+
+            h2 {
+                width: 445px;
+                color: #FFF;
+                font-size: 48px;
+                font-weight: 700;
+                margin-top: 65px;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                margin-top: 54px;
+
+                span {
+                    margin-left: 23px;
+
+                    h5 {
+                        color: #F67E7E;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        width: 445px;
+                        color: #FFF;
+                        font-size: 15px;
+                        font-weight: 600;
+                        opacity: 0.8;
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

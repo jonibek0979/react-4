@@ -1,0 +1,84 @@
+.Form {
+    background: #014E56;
+    padding: 120px 0;
+    background-image: url('../../../../assets/fonts/form__top.png'),url('../../../../assets/fonts/form__bottom.png');
+    background-repeat: no-repeat;
+    background-position: top 120px left,bottom right;
+    .form__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    h1 {
+        color: #FFF;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+    }
+
+    h3 {
+        margin-top: 16px;
+        color: #F67E7E;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: flex;
+            align-items: center;
+            margin-top: 54px;
+
+            span {
+                margin-left: 23px;
+
+                h5 {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+
+            }
+        }
+    }
+
+    .form {
+        form {
+            display: block;
+
+            input {
+                height: 60px;
+                display: block;
+                width: 540px;
+                flex-shrink: 0;
+                background: fixed;
+                outline: none;
+                border: none;
+                color: #79C8C7;
+                margin-top: 30px;
+                border-bottom: 2px solid #79C8C7;
+                font-style: 20px;
+            }
+
+            button {
+                padding: 8px 33px;
+                color: #004047;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+                border-radius: 24px;
+                border: 2px solid #FFF;
+                background: #FFF;
+                margin-top: 24px;
+            }
+        }
+    }
+}
