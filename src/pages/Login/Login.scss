@@ -1,0 +1,36 @@
+.login{
+    padding-top: 186px;
+    padding-bottom: 180px;
+    background: #002529;
+    .formm{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 600px;
+        margin: 0 auto;
+        border: 3px solid #000000a1;
+        background: fixed;
+        h1{
+            color: aliceblue;
+            margin-bottom: 20px;
+        }
+        input{
+            outline: none;
+            border: none;
+            background: fixed;
+            color: aliceblue;
+            border: 1px solid #000;
+            &:hover{
+                background: rgba(255, 255, 255, 0.445);
+            }
+        }
+        button{
+            border: none;
+            background: fixed;
+            cursor: pointer;
+            border: 1px solid #000;
+            &:hover{
+                background: rgba(5, 122, 255, 0.445);
+            }
+        }
+    }
+}

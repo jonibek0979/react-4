@@ -25,6 +25,10 @@ function Header() {
             <li className="header__item">
             <Link to="/contact">Contact</Link>
             </li>
+
+            <li className="header__item">
+            <Link to="/login">Login</Link>
+            </li>
         </ul>
   </div>
     </header>

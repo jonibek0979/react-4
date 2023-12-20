@@ -38,22 +38,28 @@ header {
 .header__item {
     margin-left: 40px;
     margin-top: -5px;
-    &:nth-child(2) {
+
+    // &:nth-child(2) {
+    //     flex-grow: 1;
+    //     border: 1px solid #000;
+    // }
+
+    &:nth-child(3) {
         flex-grow: 1;
     }
 
-    &:nth-child(3) {
+    &:nth-child(4) {
         padding: 8px 33px;
-    
+
         border-radius: 24px;
         border: 2px solid #FFF;
     }
 
-       a{
+    a {
         color: #FFF;
         background: fixed;
         font-size: 18px;
         font-weight: 600;
-           text-decoration: none;
-       }
+        text-decoration: none;
+    }
 }
